@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header-container{
+    color: black;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+}
+.header{
+    width: 900px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 75px;
+    font-family: Cambria;
+}
+.new-container{
+    color: red;
+    background-color: lightcoral;
+    width: 900px;
+    height: 300px;
+}
+.boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.box{
+    background-color: lightgreen;
+    border: 1px black solid;
+    width: 200px;
+    height: 300px;
+}
+

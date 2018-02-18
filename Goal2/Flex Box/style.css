@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header-container{
+    color: black;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+}
+.header{
+    width: 900px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 75px;
+    font-family: Cambria;
+}
+.image-container{
+    display: flex;
+    justify-content: center;
+}
+.boxes{
+    width: 1455px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.box{
+    width: 485;
+    height: 275;
+}
+
